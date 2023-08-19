@@ -8,7 +8,7 @@ function App() {
   const [posts, setPost] = useState([]);
   const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const [postsPerPage, setPostsPerPage] = useState(10);
+  const [postsPerPage] = useState(4);
 
   useEffect(()=>{
     const getPosts = async () => {
